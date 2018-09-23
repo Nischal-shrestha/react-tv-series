@@ -20,6 +20,7 @@ class Series extends Component {
 
     render() {
         const { series, seriesName, isFetching } = this.state;
+        console.log(process.env.PUBLIC_URL);
 
         return (
             <div>
